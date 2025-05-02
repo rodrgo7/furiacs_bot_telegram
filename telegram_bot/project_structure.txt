@@ -1,0 +1,25 @@
+telegram_bot/
+├── config/
+│   ├── __init__.py
+│   ├── settings.py        # Variáveis e constantes de configuração
+│   └── menus.py          # Menu
+├── database/
+│   ├── __init__.py
+│   ├── models.py         # Modelos e esquemas de banco de dados
+│   └── operations.py     # Operações de banco de dados
+├── handlers/
+│   ├── __init__.py
+│   ├── chat.py          # Manipuladores relacionados ao chat
+│   ├── news.py          # Manipuladores relacionados ao chat
+│   └── commands.py      # Manipuladores de comandos
+├── services/
+│   ├── __init__.py
+│   ├── news_service.py  # Serviços de busca de notícias
+│   └── chat_service.py  # Serviços de gerenciamento de chat
+├── utils/
+│   ├── __init__.py
+│   ├── encryption.py    # Criptografia
+│   └── helpers.py       # Funções
+├── .env                 # Variáveis de ambiente
+├── requirements.txt     # Dependências do projeto
+└── main.py             # Principal

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.center-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #2f2f2f;
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translateX(-50%);
+    background: #000;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.info {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.info h1 {
+    margin: 10px 0 5px 0;
+    font-size: 24px;
+    color: #2f2f2f;
+}
+
+.country {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.flag {
+    width: 20px;
+    height: 14px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.country span {
+    font-size: 14px;
+    color: #555;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #2f2f2f;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: #042347;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #042347;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.ranking-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 5px 0;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-icon {
+    background-color: #042347;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-icon:hover {
+    background-color: #000;
+}
